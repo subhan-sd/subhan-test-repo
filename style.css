@@ -3,3 +3,35 @@ body{
     color: #fafafa;
 }
 
+.content{
+    border : 5px solid #fafafa;
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:  "promotion promotion"
+                "sell why";
+}
+
+.tengah{
+    height: 20px;
+    width: 20px;
+    background-color: bisque;
+    padding: 9px;
+}
+
+.promotion{
+    grid-area: promotion;
+    padding:30px;
+}
+
+.sell{
+    grid-area: sell;
+    padding:30px;
+}
+
+.why{
+    grid-area: why;
+    padding:30px;
+}
