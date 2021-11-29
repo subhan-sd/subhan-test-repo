@@ -10,7 +10,6 @@ body{
 }
 
 .content{
-    border : 5px solid #fafafa;
     width: 70%;
     margin: auto;
     display: grid;
@@ -18,7 +17,8 @@ body{
     margin-top: 200px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:  "promotion promotion"
-                "sell why";
+    "sell why";
+    border-radius: 40px;
 }
 
 /* promotion */
@@ -106,3 +106,17 @@ body{
 .alasan{
     color: #e6e6e6;
 }
+
+@media (max-width: 900px) {
+    .content{
+        margin-top: 200px;
+        width: 70%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas:    "promotion "
+                                "sell "
+                                "why";}
+  }
+  
