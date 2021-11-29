@@ -87,6 +87,13 @@ body{
     color: #c7c7c7;
 }
 
+.button{
+    padding: 10px;
+    background-color: #fde03c;
+    color: #393447;
+    border-radius: 4px;
+}
+
 /* why */
 
 .why{
@@ -94,4 +101,8 @@ body{
     grid-area: why;
     background-color: #9d9ea0;
     padding:30px;
+}
+
+.alasan{
+    color: #e6e6e6;
 }
