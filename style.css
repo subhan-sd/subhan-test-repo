@@ -1,6 +1,6 @@
 body{
-    background-color: #333;
-    color: #fafafa;
+    background-color: rgb(179, 176, 176);
+    color: #333;
 }
 
 .content{
@@ -9,6 +9,7 @@ body{
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-top: 200px;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:  "promotion promotion"
                 "sell why";
@@ -24,6 +25,7 @@ body{
 .promotion{
     grid-area: promotion;
     padding:30px;
+    background-color: #fafafa;
 }
 
 .sell{
