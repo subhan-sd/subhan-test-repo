@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
 body{
     background-color: rgb(179, 176, 176);
     color: #333;
-    background-image: url("img/1.jpg");
-    background-position: cover;
+    font-family: 'Poppins', sans-serif;
+    background-image: url("img/3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .content{
@@ -17,25 +21,77 @@ body{
                 "sell why";
 }
 
-.tengah{
-    height: 20px;
-    width: 20px;
-    background-color: bisque;
-    padding: 9px;
-}
-
+/* promotion */
 .promotion{
     grid-area: promotion;
     padding:30px;
-    background-color: #fafafa;
+    background-color: #fde03c;
 }
+
+.promotion>.header{
+    font-weight: 500;
+    font-size: 20px;
+    color: #393447;
+}
+
+.second{
+    font-weight: 500;
+    margin-top: 10px;
+    color: #693c2b;
+}
+
+.isi{
+    color: #444;
+}
+
+/* sell */
 
 .sell{
     grid-area: sell;
     padding:30px;
+    color: #fafafa;
+    background-color: #393447;
 }
 
+.sell>.harga>p{
+    font-size: 40px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.sell>.harga>.per{
+    color: #a5a5a5;
+    margin-top: 24px;
+    font-weight: 500;
+    font-size: 14px;
+
+}
+
+.sell>.harga{
+    font-weight: 500;
+    margin-top: -50px;
+    /* float: inline-start; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.header-sell{
+    font-weight: 500;
+    font-size: 20px;
+    color: #fafafa;
+}
+
+.access{
+    margin-top: -40px;
+    color: #c7c7c7;
+}
+
+/* why */
+
 .why{
+    color:#fafafa;
     grid-area: why;
+    background-color: #9d9ea0;
     padding:30px;
 }
